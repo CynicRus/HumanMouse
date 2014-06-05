@@ -13,15 +13,11 @@ type
     Button3: TButton;
     Button4: TButton;
     Button5: TButton;
-    Button6: TButton;
-    Label1: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
-    procedure Button6Click(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -58,16 +54,6 @@ end;
 procedure TForm1.Button5Click(Sender: TObject);
 begin
  SleepAndMoveMouse(5000);
-end;
-
-procedure TForm1.Button6Click(Sender: TObject);
-begin
- HumanMMouse(100,100,2,2);
-end;
-
-procedure TForm1.FormCreate(Sender: TObject);
-begin
- Label1.Caption:='Current mouse speed: '+IntToStr( GetMouseSpeed);
 end;
 
 end.

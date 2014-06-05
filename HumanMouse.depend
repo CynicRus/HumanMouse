@@ -16,20 +16,13 @@
 	<ctime>
 	"HumanMouse.h"
 
-1363519305 source:e:\coding\hmouse\humanmouse.cpp
-	<Windows.h>
-	<stdlib.h>
-	<math.h>
-	<time.h>
-	"HumanMouse.h"
-
-1363519330 e:\coding\hmouse\humanmouse.h
-	<Windows.h>
-
-1363509794 source:e:\coding\hmouse\main.cpp
+1363342332 source:i:\coding\humanmouse\main.cpp
 	"main.h"
 	"HumanMouse.h"
 
-1198433342 e:\coding\hmouse\main.h
+1198433342 i:\coding\humanmouse\main.h
 	<windows.h>
+
+1401952183 i:\coding\humanmouse\humanmouse.h
+	<Windows.h>
 

@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'libHmouse Demo'
-  ClientHeight = 62
-  ClientWidth = 604
+  ClientHeight = 46
+  ClientWidth = 475
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,15 +11,8 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
-  object Label1: TLabel
-    Left = 16
-    Top = 41
-    Width = 3
-    Height = 13
-  end
   object Button1: TButton
     Left = 16
     Top = 8
@@ -64,14 +57,5 @@ object Form1: TForm1
     Caption = 'SleepAndMoveMouse'
     TabOrder = 4
     OnClick = Button5Click
-  end
-  object Button6: TButton
-    Left = 473
-    Top = 8
-    Width = 123
-    Height = 25
-    Caption = 'HumanMMouse'
-    TabOrder = 5
-    OnClick = Button6Click
   end
 end

@@ -1,6 +1,7 @@
 unit HumanMouse;
 
 interface
+ uses Windows;
 
  type
   TClickType = (mouse_Left=1, mouse_Right=0, mouse_Middle=2);
@@ -25,7 +26,6 @@ interface
  procedure BrakeMMouse(eX, eY, ranX, ranY: Integer);cdecl;  external 'HumanMouse.dll';
  procedure ShiftWindMouse(xs, ys, xe, ye, gravity, wind, minWait, maxWait, maxStep, targetArea: extended);cdecl;  external 'HumanMouse.dll';
  procedure MissMouse(eX, eY, ranX, ranY: Integer);cdecl;  external 'HumanMouse.dll';
- Procedure HumanMMouse(eX, eY, ranX, ranY: Integer);cdecl;  external 'HumanMouse.dll';
 
 
 implementation
